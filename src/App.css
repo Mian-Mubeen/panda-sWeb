@@ -1,0 +1,100 @@
+.nav-item{
+  margin-left: 2rem !important;
+  color: green !important;
+  font-weight: bolder;
+  /* position: relative;
+  top: 10%; */
+}
+.navbar-nav{
+ /* margin-left: 11rem !important; */
+}
+.head{
+  /* border: 2px solid black !important; */
+  width: 25%;
+  animation: aagepiche 2s linear infinite;
+  animation-direction: alternate;
+}
+@keyframes aagepiche{
+  from{
+      padding-left: 10%;
+  }
+  to{
+      padding-right: 20%;
+  }
+}
+.container
+{
+  margin-bottom: 15px !important;
+  border-bottom: 2px solid rgb(63, 61, 61);
+}
+.navbar-brand{
+  font-weight: bolder;
+  font-size: 1.6rem !important;
+  color: rgb(227, 179, 91)!important;
+  left: 2rem!important;
+}
+.imgi{
+  border-radius: 35px ;
+  left: 2rem !important;
+}
+.nav-link{
+  border-bottom: 2px solid orange;
+  width: 0% ;
+  transition: all 0.4s linear !important;
+}
+.nav-link:hover{
+
+  color: red!important; 
+  text-shadow: 1px 2px 2px black;
+  width: 100%;
+}
+.home{
+  /* border: 2px solid black; */
+  /* height: 85vh; */
+  display: flex;
+  padding: 4rem;
+}
+.tex{
+  /* border: 2px solid black; */
+width: 35vw;
+/* height: 70vh; */
+}
+#yel{
+  color: rgb(227, 179, 91);
+}
+.tex h1{
+  font-weight: bolder;
+  font-size: 5rem;
+}
+.picis{
+  margin-left: 2rem;
+      /* border: 2px solid black; */
+width: 55vw;
+}
+.tran{
+
+  width: 30vw;
+  height: 50vh;
+  position: relative;
+  top: 3rem;
+  left: 25%;
+  background:linear-gradient(rgb(255, 192, 246),rgb(251, 152, 255),rgb(255, 0, 242));
+  box-shadow: 18px 18px 3px rgb(65, 65, 86) ;
+}
+.foot{
+  /* background-color: rgb(40, 38, 38); */
+  color: black;
+  position: relative;
+  top: 2rem;
+  font-size: larger;
+  /* height: 6.4vh; */
+  text-align: center;
+  /* display: flex; */
+}
+.fa
+{
+  margin-left: 1rem;
+}
+.linki{
+  margin: 10px;
+}
